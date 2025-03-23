@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 18px;
+}
+
+.nav-connect{
+    padding: 10px 32px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#ad0f00e0 0.36%,
+    #eec9c9e6 100%);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    cursor: pointer;
+}
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
